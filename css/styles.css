@@ -4,6 +4,7 @@
  --c-text: #2E2F42;
  --bg-team:#F4F4FD;
 }
-.accent:{
-color: var(--c-pressed-state);
+
+.accent {
+    color: var(--c-pressed-state);
 }
