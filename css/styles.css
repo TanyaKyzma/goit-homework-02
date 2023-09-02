@@ -1,10 +1,86 @@
 :root{
- --c-primary-drand: #4D5AE5;
- --c-pressed-state: #404BBF;
- --c-text: #2E2F42;
- --bg-team:#F4F4FD;
+ --bg-primary-brand: #4D5AE5;
+ --bg-pressed-state: #404BBF;
+ --c-dark: #2E2F42;
+ --c-success: #31D0AA;
+ --c-text:#434455;
+ --c-subtle-text: #8E8F99;
+ --c-accent:#E7E9FC;
+ --c-light:#F4F4FD;
+ --c-modal-overlay: #2E2F42;
+ --bg-hero: #2E2F42;
+ --bg-white:#FFFFFF;
+ --bg-modal:#FCFCFC;
+ --c-white:#FFFFFF ;
 }
 
-.accent {
-    color: var(--c-pressed-state);
+.body{
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--c-light);
+    font-size: 14px;
 }
+
+ a:link {
+     text-decoration: none;
+ }
+
+ul {
+    list-style-type: none;}
+
+button {
+    font-family: inherit;}
+
+ .link-logo{
+    font-family: "Raleway";
+    text-transform: uppercase;
+    color:var(--c-dark);
+    font-weight: 700;
+    font-size: 18px;
+ }
+
+.accent{
+    color: var(--c-primary-brand);
+}
+
+.nav-links{
+    font-family:"Roboto", serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--c-modal-overlay);
+}
+.nav-contakts{
+    font-family:"Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--c-text);
+}
+
+.title-button{
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 56px;
+    color: var(--bg-white)
+}
+
+.primary-button{
+    color: var(--c-white);
+    background: var(--bg-primary-brand);
+    font-family:"Roboto";
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    padding: 14px 40px;
+}
+
+.primary-button:hover{
+    color: var(--c-white);
+    background: var(--bg-pressed-state);
+}
+
+.list-button{
+    background: var(--bg-hero);
+}
+
+
+
