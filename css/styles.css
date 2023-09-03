@@ -20,9 +20,6 @@
 
 .body{
     font-family: 'Roboto', sans-serif;
-    background-color: var(--bg-white);
-    color: var(--c-text);
-    font-size: 14px;
 }
 
 a:link {
@@ -42,8 +39,8 @@ button {
     color:var(--c-brand);
     font-weight: 700;
     font-size: 18px;
-    line-height: 1,17;
-    letter-spacing: 0,3em;
+    line-height: 1.17;
+    letter-spacing: 0.3em;
  }
 
 .accent-n{
@@ -52,8 +49,8 @@ button {
     color:var(--c-dark);
     font-weight: 700;
     font-size: 18px;
-    line-height: 1, 17;
-    letter-spacing: 0, 3em;
+    line-height: 1.17;
+    letter-spacing: 0.3em;
 
 }
 
@@ -66,8 +63,8 @@ button {
     font-weight: 500;
     font-size: 16px;
     color: var(--c-modal-overlay);
-    line-height: 1,5;
-    letter-spacing:0,125em;
+    line-height: 1.5;
+    letter-spacing:0.125em;
 }
 
 .nav-links:hover{
@@ -86,8 +83,8 @@ color: var(--c-state);
     font-weight: 400;
     font-size: 16px;
     color: var(--c-text);
-    line-height: 1,5;
-    letter-spacing: 0,125em;
+    line-height: 1.5;
+    letter-spacing: 0.125em;
 }
 
 .nav-contakts:hover{
@@ -102,8 +99,8 @@ color: var(--c-state);
 
 .title-button{
     font-family: "Roboto" sans-serif;
-    line-height: 1,07;
-    letter-spacing: 0,3em;
+    line-height: 1.07;
+    letter-spacing: 0.3em;
     font-weight: 700;
     font-size: 56px;
     color: var(--c-white);
@@ -118,8 +115,8 @@ color: var(--c-state);
     font-size: 16px;
     cursor: pointer;
     border: none;
-    line-height: 1,5;
-    letter-spacing: 0,25em;
+    line-height: 1.5;
+    letter-spacing: 0.25em;
     text-align: center;
 }
 
@@ -153,8 +150,8 @@ background:var(--bg-pressed-state);
     font-family: "Roboto" sans-serif;
     font-weight: 500;
     font-size: 20px;
-    line-height: 1,2;
-    letter-spacing: 0,1em;
+    line-height: 1.2;
+    letter-spacing: 0.1em;
     color: var(--c-dark);
 }
 
@@ -162,8 +159,8 @@ background:var(--bg-pressed-state);
     font-family: "Roboto" sans-serif;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1,5;
-    letter-spacing:0,1em;
+    line-height: 1.5;
+    letter-spacing:0.1em;
     color: var(--c-text);
 
 }
@@ -178,7 +175,7 @@ background:var(--bg-pressed-state);
     font-weight: 700;
     font-size: 36px;
     line-height: 1,11;
-    letter-spacing: 0,05em;
+    letter-spacing: 0.05em;
     color: var(--c-dark);
     text-align: center;
     text-transform: capitalize;
@@ -189,7 +186,7 @@ background:var(--bg-pressed-state);
     font-weight: 500;
     font-size: 20px;
     line-height: 1,2;
-    letter-spacing: 0,1em;
+    letter-spacing: 0.1em;
     color: var(--c-dark);
 }
 
@@ -197,8 +194,8 @@ background:var(--bg-pressed-state);
 font-family: "Roboto";
 font-weight: 400;
 font-size: 16px;
-line-height: 1,5;
-letter-spacing: 0,125em;
+line-height: 1.5;
+letter-spacing: 0.125em;
 color: var(--c-text);
 }
 
@@ -208,8 +205,8 @@ color: var(--c-text);
     font-family: "Roboto" sans-serif;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1,11;
-    letter-spacing: 0,05em;
+    line-height: 1.11;
+    letter-spacing: 0.05em;
     color: var(--c-modal-overlay);
     text-align: center;
 }
@@ -218,8 +215,8 @@ color: var(--c-text);
     font-family: "Roboto" sans-serif;
     font-weight: 500;
     font-size: 20px;
-    line-height: 1,2;
-    letter-spacing: 0,1em;
+    line-height: 1.2;
+    letter-spacing: 0.1em;
     color: var(--c-dark)
 }
 
@@ -227,8 +224,8 @@ color: var(--c-text);
     font-family: "Roboto";
     font-weight: 400;
     font-size: 16px;
-    line-height: 1,5;
-    letter-spacing: 0,125em;
+    line-height: 1.5;
+    letter-spacing: 0.125em;
     color:var(--c-text);
 }
 
@@ -241,8 +238,8 @@ color: var(--c-text);
 font-family: "Raleway" sans-serif;
 font-weight: 700;
 font-size: 18px;
-line-height: 1,16;
-letter-spacing: 0,16em;
+line-height: 1.16;
+letter-spacing: 0.16em;
 color:var(--c-brand);
 }
 
@@ -250,8 +247,8 @@ color:var(--c-brand);
     font-family: "Raleway" sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1, 16;
-    letter-spacing: 0, 16em;
+    line-height: 1.16;
+    letter-spacing: 0.16em;
     color: var(--c-light);
 }
 
@@ -259,6 +256,6 @@ color:var(--c-brand);
     font-family: "Roboto" sans-serif;
     font-weight: 400;
     font-size: 16px;
-    line-height: 0,16;
-    letter-spacing: 0,125em;
+    line-height: 0.16;
+    letter-spacing: 0.125em;
 }
