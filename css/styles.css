@@ -39,15 +39,22 @@ button {
  .link-logo{
     font-family: "Raleway" sans-serif ;
     text-transform: uppercase;
-    color:var(--c-dark);
+    color:var(--c-brand);
     font-weight: 700;
     font-size: 18px;
     line-height: 1,17;
     letter-spacing: 0,3em;
  }
 
-.accent{
-    color: var(--c-brand);
+.accent-n{
+    font-family: "Raleway" sans-serif;
+    text-transform: uppercase;
+    color:var(--c-dark);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1, 17;
+    letter-spacing: 0, 3em;
+
 }
 
 .page-header :active{
@@ -239,7 +246,7 @@ letter-spacing: 0,16em;
 color:var(--c-brand);
 }
 
-.accent{
+.accent-f{
     font-family: "Raleway" sans-serif;
     font-weight: 700;
     font-size: 18px;
