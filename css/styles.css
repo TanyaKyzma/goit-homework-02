@@ -47,14 +47,7 @@ button {
  }
 
 .accent-n{
-    font-family: "Raleway" sans-serif;
-    text-transform: uppercase;
     color:var(--c-dark);
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.3em;
-
 }
 
 .page-header :active{
@@ -75,10 +68,6 @@ color: var(--c-state);}
 
 .nav-links:focus{
 color: var(--c-state);
-}
-
-.nav-list{
-   font-style: normal;
 }
 
 .nav-contakts{
@@ -231,7 +220,6 @@ color: var(--c-text);
 /*Footer*/
 .page-footer{
     background: var(--bg-hero);
-
 }
 
 .logo-footer{
@@ -244,17 +232,12 @@ color:var(--c-brand);
 }
 
 .accent-f{
-    font-family: "Raleway" sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.16;
-    letter-spacing: 0.16em;
     color: var(--c-light);
 }
 
 .text-footer{
-    font-family: "Roboto" sans-serif;
     font-size: 16px;
-    line-height: 0.16;
+    line-height: 1.5;
     letter-spacing: 0.125em;
+    color:var(--c-light);
 }
