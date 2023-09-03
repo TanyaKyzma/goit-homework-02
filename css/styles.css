@@ -20,7 +20,8 @@
 
 .body{
     font-family: 'Roboto', sans-serif;
-    background-color: var(--c-light);
+    background-color: var(--bg-white);
+    color: var(--c-text);
     font-size: 14px;
 }
 
@@ -28,21 +29,21 @@ a:link {
     text-decoration: none;
 }
 
-
 ul {
     list-style-type: none;}
 
 button {
     font-family: inherit;}
 
+/*Menu Navigation*/
  .link-logo{
-    font-family: "Raleway";
+    font-family: "Raleway" sans-serif ;
     text-transform: uppercase;
     color:var(--c-dark);
     font-weight: 700;
     font-size: 18px;
-    line-height: 1,16;
-    letter-spacing: 0,16em;
+    line-height: 1,17;
+    letter-spacing: 0,3em;
  }
 
 .accent{
@@ -61,8 +62,20 @@ button {
     line-height: 1,5;
     letter-spacing:0,125em;
 }
+
+.nav-links:hover{
+color: var(--c-state);}
+
+.nav-links:focus{
+color: var(--c-state);
+}
+
+.nav-list{
+   font-style: normal;
+}
+
 .nav-contakts{
-    font-family:"Roboto";
+    font-family:"Roboto" sans-serif;
     font-weight: 400;
     font-size: 16px;
     color: var(--c-text);
@@ -70,27 +83,37 @@ button {
     letter-spacing: 0,125em;
 }
 
+.nav-contakts:hover{
+    color: var(--c-state);
+}
+
+.nav-contakts:focus{
+    color: var(--c-state);
+}
+
+/*List-button*/
+
 .title-button{
-    font-family: "Roboto";
+    font-family: "Roboto" sans-serif;
     line-height: 1,07;
     letter-spacing: 0,3em;
     font-weight: 700;
     font-size: 56px;
-    color: var(--bg-white)
-
+    color: var(--c-white);
+    text-align: center;
 }
 
 .primary-button{
     color: var(--c-white);
     background: var(--bg-primary-brand);
-    font-family:"Roboto";
+    font-family:"Roboto" sans-serif;
     font-weight: 500;
     font-size: 16px;
     cursor: pointer;
     border: none;
-    padding: 14px 40px;
     line-height: 1,5;
     letter-spacing: 0,25em;
+    text-align: center;
 }
 
 .primary-button:hover{
@@ -98,12 +121,29 @@ button {
     background: var(--bg-pressed-state);
 }
 
+.primary-button:focus{
+background:var(--bg-pressed-state);
+}
+
 .list-button{
     background: var(--bg-hero);
 }
 
+/*Feature*/
+.visually-hidden:{
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 .title-feature{
-    font-family: "Roboto";
+    font-family: "Roboto" sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 1,2;
@@ -112,7 +152,7 @@ button {
 }
 
 .text-feature{
-    font-family: "Roboto";
+    font-family: "Roboto" sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1,5;
@@ -121,31 +161,24 @@ button {
 
 }
 
-.title-teams{
-font-family: "Roboto";
-font-weight: 700;
-font-size: 36px;
-line-height: 1,11;
-letter-spacing: 0,05em;
-color: var(--c-dark);
-
-}
-
+/*Team*/
 .page-team{
     background: var(--bg-light);
 }
 
 .title-teams{
-    font-family: "Roboto";
+    font-family: "Roboto" sans-serif;
     font-weight: 700;
     font-size: 36px;
     line-height: 1,11;
     letter-spacing: 0,05em;
     color: var(--c-dark);
+    text-align: center;
+    text-transform: capitalize;
 }
 
 .title-team{
-    font-family:"Roboto";
+    font-family:"Roboto" sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 1,2;
@@ -162,6 +195,8 @@ letter-spacing: 0,125em;
 color: var(--c-text);
 }
 
+/*Portfolio*/
+
 .title-portfolios{
     font-family: "Roboto" sans-serif;
     font-weight: 700;
@@ -169,10 +204,11 @@ color: var(--c-text);
     line-height: 1,11;
     letter-spacing: 0,05em;
     color: var(--c-modal-overlay);
+    text-align: center;
 }
 
 .title-portfolio{
-    font-family: "Roboto";
+    font-family: "Roboto" sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 1,2;
@@ -189,24 +225,33 @@ color: var(--c-text);
     color:var(--c-text);
 }
 
+/*Footer*/
 .page-footer{
     background: var(--bg-hero);
 }
 
 .logo-footer{
-    font-family: "Roboto";
+font-family: "Raleway" sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 1,16;
+letter-spacing: 0,16em;
+color:var(--c-brand);
+}
+
+.accent{
+    font-family: "Raleway" sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1,16;
-    letter-spacing: 0,16em;
+    line-height: 1, 16;
+    letter-spacing: 0, 16em;
     color: var(--c-light);
 }
 
 .text-footer{
-    font-family: "Roboto";
+    font-family: "Roboto" sans-serif;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 0,16;
     letter-spacing: 0,125em;
-    color: var(--c-light);
 }
