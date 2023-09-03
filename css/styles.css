@@ -20,6 +20,9 @@
 
 .body{
     font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: var(--c-dark);
+    background:var(--bg-white);
 }
 
 a:link {
@@ -80,7 +83,6 @@ color: var(--c-state);
 
 .nav-contakts{
     font-family:"Roboto" sans-serif;
-    font-weight: 400;
     font-size: 16px;
     color: var(--c-text);
     line-height: 1.5;
@@ -157,7 +159,6 @@ background:var(--bg-pressed-state);
 
 .text-feature{
     font-family: "Roboto" sans-serif;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing:0.1em;
@@ -192,7 +193,6 @@ background:var(--bg-pressed-state);
 
 .text-team{
 font-family: "Roboto";
-font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.125em;
@@ -205,8 +205,8 @@ color: var(--c-text);
     font-family: "Roboto" sans-serif;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11;
     letter-spacing: 0.05em;
+    line-height: 1.11;
     color: var(--c-modal-overlay);
     text-align: center;
 }
@@ -222,7 +222,6 @@ color: var(--c-text);
 
 .text-portfolio{
     font-family: "Roboto";
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.125em;
@@ -232,6 +231,7 @@ color: var(--c-text);
 /*Footer*/
 .page-footer{
     background: var(--bg-hero);
+
 }
 
 .logo-footer{
@@ -254,7 +254,6 @@ color:var(--c-brand);
 
 .text-footer{
     font-family: "Roboto" sans-serif;
-    font-weight: 400;
     font-size: 16px;
     line-height: 0.16;
     letter-spacing: 0.125em;
