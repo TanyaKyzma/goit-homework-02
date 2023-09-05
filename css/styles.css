@@ -21,7 +21,7 @@
 body{
     font-family:"Roboto", sans-serif;
     font-size:16px;
-    color: var(--c-dark);
+    color: var(--c-text);
     background-color: var(--bg-white);
 }
 
@@ -37,7 +37,7 @@ button {
 
 /*Menu Navigation*/
  .link-logo{
-    font-family: "Roboto" sans-serif ;
+    font-family: "Raleway", sans-serif ;
     text-transform: uppercase;
     color:var(--c-brand);
     font-weight: 700;
@@ -121,12 +121,6 @@ background:var(--bg-pressed-state);
 }
 
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
