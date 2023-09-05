@@ -19,10 +19,10 @@
 }
 
 .body{
-    font-family:'Roboto',sans-serif;
-    font-size:14px;
+    font-family:"Roboto", sans-serif;
+    font-size:16px;
     color:var(--c-dark);
-    background:var(--bg-white);
+    background-color:var(--bg-white);
 }
 
 a:link {
