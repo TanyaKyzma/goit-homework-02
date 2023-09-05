@@ -19,9 +19,9 @@
 }
 
 .body{
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    color: var(--c-dark);
+    font-family:'Roboto',sans-serif;
+    font-size:14px;
+    color:var(--c-dark);
     background:var(--bg-white);
 }
 
@@ -56,9 +56,9 @@ button {
 
 .nav-links{
     font-family:"Roboto", serif;
+    color:var(--c-dark);
     font-weight: 500;
-    font-size: 16px;
-    color: var(--c-modal-overlay);
+    font-style: 16px;
     line-height: 1.5;
     letter-spacing:0.125em;
 }
@@ -70,10 +70,13 @@ color: var(--c-state);}
 color: var(--c-state);
 }
 
+.nav-address{
+  font-style: normal;
+}
+
 .nav-contakts{
     font-family:"Roboto" sans-serif;
-    font-size: 16px;
-    color: var(--c-text);
+    color: var(--c-dark);
     line-height: 1.5;
     letter-spacing: 0.125em;
 }
