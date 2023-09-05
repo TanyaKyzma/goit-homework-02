@@ -21,8 +21,8 @@
 .body{
     font-family:"Roboto", sans-serif;
     font-size:16px;
-    color:var(--c-dark);
-    background-color:var(--bg-white);
+    color: var(--c-dark);
+    background-color: var(--bg-white);
 }
 
 a:link {
@@ -37,7 +37,7 @@ button {
 
 /*Menu Navigation*/
  .link-logo{
-    font-family: "Raleway" sans-serif ;
+    font-family: "Roboto" sans-serif ;
     text-transform: uppercase;
     color:var(--c-brand);
     font-weight: 700;
@@ -63,31 +63,20 @@ button {
     letter-spacing:0.125em;
 }
 
-.nav-links:hover{
+.nav-links:hover,.nav-links:focus{
 color: var(--c-state);}
 
-.nav-links:focus{
-color: var(--c-state);
-}
-
 .nav-address{
-  font-style: normal;
-  color: var(--c-dark);
-    line-height: 1.5;
-    letter-spacing: 0.2em;
-    font-weight: 400;
-}
-
-.nav-contakts{
     color: var(--c-dark);
     line-height: 1.5;
     letter-spacing: 0.2em;
-    font-weight: 400;
+}
+.nav-contakts{
+   color: var(--c-dark);
 }
 
 .nav-contakts:hover,.nav-contakts:focus{
-    color: var(--c-state);
-}
+    color: var(--c-state);}
 /*List-button*/
 
 .title-button{
