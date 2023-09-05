@@ -72,6 +72,10 @@ color: var(--c-state);
 
 .nav-address{
   font-style: normal;
+  color: var(--c-dark);
+    line-height: 1.5;
+    letter-spacing: 0.2em;
+    font-weight: 400;
 }
 
 .nav-contakts{
