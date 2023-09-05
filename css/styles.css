@@ -18,14 +18,14 @@
 
 }
 
-.body{
+body{
     font-family:"Roboto", sans-serif;
     font-size:16px;
     color: var(--c-dark);
     background-color: var(--bg-white);
 }
 
-a:link {
+a {
     text-decoration: none;
 }
 
@@ -43,7 +43,7 @@ button {
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
-    letter-spacing: 0.3em;
+    letter-spacing: 0.03em;
  }
 
 .accent-n{
@@ -66,13 +66,8 @@ button {
 .nav-links:hover,.nav-links:focus{
 color: var(--c-state);}
 
-.nav-address{
-    color: var(--c-dark);
-    line-height: 1.5;
-    letter-spacing: 0.2em;
-}
 .nav-contakts{
-   color: var(--c-dark);
+   color:var(--c-dark);
 }
 
 .nav-contakts:hover,.nav-contakts:focus{
@@ -82,7 +77,7 @@ color: var(--c-state);}
 .title-button{
     font-family: "Roboto" sans-serif;
     line-height: 1.07;
-    letter-spacing: 0.3em;
+    letter-spacing: 0.02em;
     font-weight: 700;
     font-size: 56px;
     color: var(--c-white);
@@ -220,6 +215,7 @@ font-size: 18px;
 line-height: 1.16;
 letter-spacing: 0.16em;
 color:var(--c-brand);
+text-transform: uppercase;
 }
 
 .accent-f{
