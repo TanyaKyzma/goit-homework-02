@@ -75,20 +75,15 @@ color: var(--c-state);
 }
 
 .nav-contakts{
-    font-family:"Roboto" sans-serif;
     color: var(--c-dark);
     line-height: 1.5;
-    letter-spacing: 0.125em;
+    letter-spacing: 0.2em;
+    font-weight: 400;
 }
 
-.nav-contakts:hover{
+.nav-contakts:hover,.nav-contakts:focus{
     color: var(--c-state);
 }
-
-.nav-contakts:focus{
-    color: var(--c-state);
-}
-
 /*List-button*/
 
 .title-button{
